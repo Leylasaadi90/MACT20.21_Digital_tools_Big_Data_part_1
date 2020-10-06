@@ -20,7 +20,7 @@ d = os.path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 
 # load wikipedia text on rainbow
 text = open('../Leyla Saadi/Text_barcelona.txt').read()
-#text = open(..Leyla Saadi(d, 'Text_barcelona.txt'), encoding="utf-8").read()
+#text = open(os.path.join(d, 'wiki_rainbow.txt'), encoding="utf-8").read()
 
 # load image. This has been modified in gimp to be brighter and have more saturation.
 parrot_color = np.array(Image.open(os.path.join(d, "parrot-by-jose-mari-gimenez2.jpg")))
