@@ -36,9 +36,10 @@ plt.margins(x=0, y=0)
 plt.show()
 
 
+
 # Let's do it using a text file
 
-text = open('../data/wikipedia_opendata.txt').read()
+text = open('../data/text_for_cloud.txt').read()
 text = text.upper()
 
 # Create the wordcloud object
